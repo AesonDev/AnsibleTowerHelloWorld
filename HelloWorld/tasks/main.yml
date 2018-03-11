@@ -1,0 +1,5 @@
+---
+- name: ensure file exists
+  copy:
+    content: "{{MyMessage}}"
+    dest: /home/ansible/file.txt

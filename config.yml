@@ -1,0 +1,5 @@
+---
+ - name: Apply Hello World
+   hosts: all
+   roles: 
+     - HelloWorld
